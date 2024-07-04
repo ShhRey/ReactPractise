@@ -22,7 +22,7 @@ export default function CounterApp() {
     }
 
     return (
-        <div className="container">
+        <div className="counterContainer">
             <h1 className="counterHeader">Counter Implementation</h1>
             <div className="button-container">
                 {/* Adding onClicks to Buttons for calling specific functions */}

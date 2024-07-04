@@ -1,6 +1,7 @@
-.container {
+.counterContainer {
     background-color: grey;
     text-align: center;
+    margin-top: 4%;
     width: 100vw;
     height: 30vh;
   }
