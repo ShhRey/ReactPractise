@@ -1,0 +1,31 @@
+.taskContainer {
+    margin-top: 4%;
+}
+
+.addTask {
+    background-color: aqua;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskList {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.indTask {
+    width: 500px;
+    height: auto;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

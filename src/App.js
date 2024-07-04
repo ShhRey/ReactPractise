@@ -2,6 +2,7 @@ import './App.css';
 import Accordian from './components/accordian';
 import { RandomColor } from './components/random-color';
 import CounterApp from './components/counter';
+import TodoList from './components/todo-list';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <RandomColor/>
       {/* Importing CounterApp Component */}
       <CounterApp />
+      {/* Importing Todo List Component */}
+      <TodoList />
     </div>
   );
 }
