@@ -12,6 +12,7 @@
 }
 
 .taskList {
+    background-color: aqua;
     height: auto;
     width: 100vw;
     display: flex;
