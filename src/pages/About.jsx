@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { AppContext } from "../App";
-import ChangeProfile from "../components/ChangeProfile";
+import ChangeProfile from "./ChangeProfile";
+import Form from "../components/Form";
 
 export default function About() {
     const { userName } = useContext(AppContext);
@@ -11,6 +12,7 @@ export default function About() {
             <div className="change">
                 Current Username: {userName}
                 <ChangeProfile />
+                <Form />
             </div>
         </div>
     );
