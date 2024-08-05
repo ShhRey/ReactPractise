@@ -2,17 +2,14 @@ import '../App.css';
 import Accordian from "../components/accordian";
 import ApiFetch from "../components/apiFetch";
 import CounterApp from "../components/counter";
-import { RandomColor } from "../components/random-color";
-import TodoList from "../components/todo-list";
-import { useContext } from 'react';
-import { AppContext } from '../App';
+import { RandomColor } from "../components/randomColor";
+import TodoList from "../components/todoList";
 
 export default function Home() {
-	const { userName } = useContext(AppContext);
-
+	
     return (
         <div className="App">
-			<h1>This is Home Page and my UserName is: {userName}</h1>
+			<h1>This is Home Page</h1>
 			{/* Importing Accordian Component */}
 			<Accordian />
 			{/* Importing RCG Component */}

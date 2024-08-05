@@ -56,6 +56,7 @@ export default function TodoList() {
     return (
         <div className="taskContainer">
             {/* Div for creating Input and Button Elements */}
+            <h2>Todo List Implementation</h2>
             <div className="addTask">
                 {/* Using onChange, keep track of every change in user input */}
                 <input onChange={handleInput} type="text" />
