@@ -3,6 +3,7 @@ import { AppContext } from '../App';
 import ChangeProfile from "./ChangeProfile";
 import Form from "../components/Form";
 import QRCodeGenerator from '../components/qrCode';
+import ProfileFinder from '../components/gitProfileFinder';
 
 export default function Contact() {
     const { userName } = useContext(AppContext);
@@ -14,6 +15,7 @@ export default function Contact() {
             <div className="change">
                 Current Username: {userName}
                 <ChangeProfile />
+                <ProfileFinder />
                 <Form />
                 <QRCodeGenerator />
             </div>
