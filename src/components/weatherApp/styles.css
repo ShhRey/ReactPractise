@@ -1,15 +1,59 @@
 .wapp-container {
-    border: 3px solid black;
-    width: 30%;
     margin: 20px auto;
+    max-width: 500px;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7cc;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .search-container {
     display: flex;
     justify-content: space-between;
-    margin: 2%;
+    margin: 5% 0;
 }
 
 .search-container input {
-    width: 80%;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #696969;
+    border-radius: 10px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #65deff;
+    color: #000;
+}
+
+.result-desc {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.result-temp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    margin: 20px auto;
+}
+
+.temp-desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-wind {
+    display: flex;
+    justify-content: space-between;
 }
