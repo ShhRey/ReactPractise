@@ -1,12 +1,10 @@
-import LoadMoreData from '../components/loadMore';
+import ProfileFinder from '../components/gitProfileFinder';
 
 export default function About() {
     return (
         <div className="about">
             <h1>Hello Everyone! My name is Shrey Trivedi</h1>
-
-            {/* Loading More Data Component */}
-            <LoadMoreData />
+            <ProfileFinder />
         </div>
     );
 }

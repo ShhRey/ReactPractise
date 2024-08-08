@@ -2,8 +2,6 @@ import { useContext } from 'react';
 import { AppContext } from '../App';
 import ChangeProfile from "./ChangeProfile";
 import Form from "../components/Form";
-import QRCodeGenerator from '../components/qrCode';
-import ProfileFinder from '../components/gitProfileFinder';
 
 export default function Contact() {
     const { userName } = useContext(AppContext);
@@ -11,13 +9,10 @@ export default function Contact() {
     return (
         <div className="contact">
             <h1>This is the Contact Page  and my UserName is: {userName}</h1>
-
             <div className="change">
                 Current Username: {userName}
                 <ChangeProfile />
-                <ProfileFinder />
                 <Form />
-                <QRCodeGenerator />
             </div>
         </div>
     );
