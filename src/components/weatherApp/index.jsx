@@ -19,7 +19,7 @@ export default function WeatherApp() {
         try {
             setLoading(true);
             // b4ba32de85d3a2a52203825b22bec91d
-            const resp = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${param}&appid=`);
+            const resp = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${param}&appid=YOUR_API_KEY`);
             const result = await resp.json();
             console.log(result);
 

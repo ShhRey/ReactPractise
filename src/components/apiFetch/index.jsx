@@ -21,7 +21,7 @@ export default function ApiFetch() {
     return (
         <div className="">
             {/* Using function to Change State when button is pressed */}
-            <button onClick={fetchData}>Generate API Call</button>
+            <button onClick={fetchData}>Random Cat Fact</button>
             <p>{catFact}</p>
         </div>
     )
