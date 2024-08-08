@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
+import SideProjects from './pages/SideProjects';
 import { useState, createContext } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ function App() {
 						<Route path="/" element={<Home />} />
 						<Route path="/about" element={<About />} />
 						<Route path="/contact" element={<Contact />} />
+						<Route path="/side-projects" element={<SideProjects />} />
 						<Route path="*" element={<h1>Page Not Found</h1>} />
 					</Routes>
 				</Router>
