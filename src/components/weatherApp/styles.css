@@ -1,0 +1,15 @@
+.wapp-container {
+    border: 3px solid black;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.search-container input {
+    width: 80%;
+}
